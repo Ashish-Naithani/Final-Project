@@ -1,35 +1,60 @@
-# Data Analytics & Machine Learning Projects
+# 🎬 IMDB Movie Success Prediction
 
-This repository contains two projects developed during my role as a Data Analyst at Elite Labs. Each project is organized into its own branch for better structure and focus.
+This project aims to **predict box office success** of movies using IMDB data, sentiment analysis, and machine learning.  
+It combines **data science techniques** with **visual storytelling** through Power BI dashboards.
 
-## 📂 Projects Overview
-1. Global CO₂ Emission Tracker 🌍
-  An interactive dashboard to track multi-year CO₂ emissions across countries and sectors.
-  Tech Stack: Python (Pandas, NumPy), Power BI
-  Features: Data cleaning & aggregation, CO₂ trends by region and sector, interactive maps & charts
-  Branch: global-co2-tracker
+---
 
-2. IMDb Movie Success Prediction 🎬
-  A machine learning project to predict IMDb movie ratings using Random Forest.
-  Tech Stack: Python (Pandas, Scikit-learn, Matplotlib)
-  Features: Data preprocessing, feature engineering, rating prediction, model evaluation
-  Branch: imdb-success-prediction
+## 📌 Project Overview
+- Imported **IMDB movie and rating datasets**.  
+- Collected and cleaned **user review data**.  
+- Applied **VADER Sentiment Analysis** to extract sentiment scores from reviews.  
+- Built a **Regression Model** to predict a movie’s **box office performance**.  
+- Analyzed **genre-wise sentiment trends** to understand how audience perception varies across movie categories.  
+- Created **Power BI Dashboards** for interactive visualization of results.
 
-## 🔧 Tools & Technologies
+---
 
-Languages: Python
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib
-Visualization: Power BI
+## 🛠️ Tools & Technologies
+- **Python** (pandas, numpy, sklearn, nltk, vaderSentiment, matplotlib, seaborn)  
+- **Power BI** (dashboard creation & storytelling)  
+- **Jupyter Notebook** for model development and analysis  
 
-🚀 How to Use
+---
 
-Clone the repository
+## 📊 Key Steps
+1. **Data Import & Cleaning**  
+   - Imported IMDB datasets (movies, ratings, reviews).  
+   - Preprocessed text data for sentiment analysis.  
 
-git clone [https://github.com/Ashish-Naithani/Final-Project](https://github.com/Ashish-Naithani/Final-Project)
+2. **Sentiment Analysis**  
+   - Applied **VADER** to extract positive, negative, neutral, and compound scores.  
+   - Aggregated sentiment at movie and genre level.  
 
-cd Final-Project
+3. **Regression Model**  
+   - Engineered features from ratings, sentiment scores, and genres.  
+   - Built random forest regression models for prediction.  
 
-git checkout global-co2-tracker
-or
-git checkout imdb-success-prediction
+4. **Genre-wise Analysis**  
+   - Compared sentiment patterns across genres.  
+   - Identified genres with strongest correlation between sentiment & success.  
 
+5. **Visualization with Power BI**  
+   - Created interactive dashboards to explore:  
+     - Movie sentiment vs success  
+     - Genre sentiment distribution  
+     - Predicted vs actual box office performance  
+
+---
+
+## 🚀 Results & Insights
+- **Sentiment scores** showed a significant correlation with movie success.  
+- **Genres like Drama and Action** exhibited stronger sentiment-success relationships.  
+- Regression model demonstrated **predictive power** for estimating box office performance.  
+- **Power BI dashboards** provided intuitive insights for stakeholders.  
+
+---
+## 📌 Author
+**Ashish Naithani**  
+*Data Analyst @ Elite Labs*  
+[LinkedIn](https://www.linkedin.com/in/ashish-naithani-283634331/) | [GitHub](https://github.com/Ashish-Naithani)
