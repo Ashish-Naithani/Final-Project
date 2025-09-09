@@ -27,7 +27,7 @@ Clone the repository
 
 git clone [https://github.com/Ashish-Naithani/Final-Project](https://github.com/Ashish-Naithani/Final-Project)
 
-cd your-repo-name
+cd Final-Project
 
 git checkout global-co2-tracker
 or
