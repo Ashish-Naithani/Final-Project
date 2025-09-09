@@ -1,35 +1,43 @@
-# Data Analytics & Machine Learning Projects
+# 🌍 Global CO₂ Emission Tracker
 
-This repository contains two projects developed during my role as a Data Analyst at Elite Labs. Each project is organized into its own branch for better structure and focus.
+This project provides a comprehensive view of **global CO₂ emissions** over multiple years, helping visualize patterns and sector-wise contributions to emissions.  
+It was developed while working as a **Data Analyst at Elevate Labs**.
 
-## 📂 Projects Overview
-1. Global CO₂ Emission Tracker 🌍
-  An interactive dashboard to track multi-year CO₂ emissions across countries and sectors.
-  Tech Stack: Python (Pandas, NumPy), Power BI
-  Features: Data cleaning & aggregation, CO₂ trends by region and sector, interactive maps & charts
-  Branch: global-co2-tracker
+---
 
-2. IMDb Movie Success Prediction 🎬
-  A machine learning project to predict IMDb movie ratings using Random Forest.
-  Tech Stack: Python (Pandas, Scikit-learn, Matplotlib)
-  Features: Data preprocessing, feature engineering, rating prediction, model evaluation
-  Branch: imdb-success-prediction
+## 📌 Project Overview
+The Global CO₂ Emission Tracker combines **data wrangling** and **data visualization** to make large-scale emission datasets more understandable.  
+Key features include:
+- Importing and analyzing a **multi-year emissions dataset**  
+- Cleaning and preprocessing data using **Python**  
+- Adding a **total emissions column** that sums values across all available years  
+- Creating **interactive dashboards in Power BI** with maps and bar graphs by sector  
 
-## 🔧 Tools & Technologies
+---
 
-Languages: Python
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib
-Visualization: Power BI
+## 🛠️ Tools & Technologies
+- **Python** (Pandas, NumPy) – for data cleaning and preprocessing  
+- **Power BI** – for creating dashboards and interactive visualizations  
+- **Excel/CSV datasets** – as the raw data source  
 
-🚀 How to Use
+---
 
-Clone the repository
+## 📊 Dashboards
+The Power BI dashboard includes:  
+- **Global Map View**: Country-wise emissions across years  
+- **Sector-wise Bar Graphs**: Showing contribution by energy, transport, industry, etc.  
+- **Total Emissions Tracker**: Summing up all available data till now  
 
-git clone [https://github.com/Ashish-Naithani/Final-Project](https://github.com/Ashish-Naithani/Final-Project)
+---
 
-cd Final-Project
+## 🚀 Insights
+- Identified **regional differences** in emission trends  
+- Compared **sector-level contributions** to total emissions  
+- Built a structure that can be **extended with future data updates**  
 
-git checkout global-co2-tracker
-or
-git checkout imdb-success-prediction
+---
 
+## 📌 Author
+**Ashish Naithani**  
+*Data Analyst @ Elevate Labs*  
+[LinkedIn](https://www.linkedin.com/in/ashish-naithani-283634331/) | [GitHub](https://github.com/Ashish-Naithani)
