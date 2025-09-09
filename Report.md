@@ -3,7 +3,7 @@
 ## ✨ Introduction
 
 Movies are more than just entertainment — they are big investments, and predicting their success is a challenge that excites both filmmakers and data scientists.
-In this project, carried out during my time as a Data Analyst at Elite Labs, I explored how audience reviews, ratings, and sentiment can be leveraged to predict a movie’s box office performance.
+In this project, carried out during my time as a Data Analyst at Elevate Labs, I explored how audience reviews, ratings, and sentiment can be leveraged to predict a movie’s box office performance.
 
 The goal was to combine machine learning with sentiment analysis and create meaningful insights through interactive dashboards.
 
