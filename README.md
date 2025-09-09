@@ -1,6 +1,6 @@
 # Data Analytics & Machine Learning Projects
 
-This repository contains two projects developed during my role as a Data Analyst at Elite Labs. Each project is organized into its own branch for better structure and focus.
+This repository contains two projects developed during my role as a Data Analyst at Elevate Labs. Each project is organized into its own branch for better structure and focus.
 
 ## 📂 Projects Overview
 1. Global CO₂ Emission Tracker 🌍
