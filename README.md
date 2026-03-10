@@ -1,4 +1,4 @@
-# Data Analytics & Machine Learning Projects
+# Data Analytics Projects
 
 This repository contains two projects developed during my role as a Data Analyst at Elevate Labs. Each project is organized into its own branch for better structure and focus.
 
